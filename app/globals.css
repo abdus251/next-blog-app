@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.scrollbar-hide::-webkit-scrollbar{
+    display: none;
+}
+
+.scrollbar-hide{
+    -ms-overflow-style:none;
+    scrollbar-width: none;
+}
+
+.rounded-full {
+    border-radius: 50%;
+    overflow: hidden;
+    width: 40px;
+    height: 40px;
+  }
+  
+  .object-cover {
+    object-fit: cover;
+  }
